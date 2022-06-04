@@ -1,18 +1,3 @@
-#include <stdio.h>
-/**
- * main - entry point
- *
- * Return: always returns 0
- *
- */
-int main(void)
-{
-	char a;
-
-	for (a = 'a'; a <= 'z' ; a++)
-		putchar(a);
-	for (a = 'A'; a <= 'Z'; a++)
-		putchar(a);
-	putchar('\n');
-	return (0);
-}
+[master 43acf8f] A to Z
+ 1 file changed, 18 insertions(+)
+ create mode 100755 0x01-variables_if_else_while/3-print_alphabets.c

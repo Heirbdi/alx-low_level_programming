@@ -1,16 +1,4 @@
-#include <stdio.h>
-/**
- * main - entry point
- *
- * Return: always return 0
- *
- */
-int main(void)
-{
-	char a;
-
-	for (a = 'a'; a <= 'z' ; a++)
-		putchar(a);
-	putchar('\n');
-	return (0);
-}
+[master efe6c1f] A to Z
+ 2 files changed, 19 insertions(+), 32 deletions(-)
+ rewrite 0x01-variables_if_else_while/1-last_digit.c (100%)
+ create mode 100755 0x01-variables_if_else_while/2-print_alphabet.c

@@ -1,22 +1,3 @@
-#include <stdio.h>
-/**
- * main - entry point
- *
- * Return: always returns 0
- *
- */
-int main(void)
-{
-	char a;
-
-	for (a = 'a'; a <= 'z' ; a++)
-	{
-		if (a == 'q' || a == 'e')
-		{
-			continue;
-		}
-		putchar(a);
-	}
-	putchar('\n');
-	return (0);
-}
+[master bf9139f] Alphabet in lowcase
+ 1 file changed, 22 insertions(+)
+ create mode 100755 0x01-variables_if_else_while/4-print_alphabt.c
