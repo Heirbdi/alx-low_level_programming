@@ -1,26 +1,3 @@
-#include <stdio.h>
-/**
- * main - antry point
- *
- * Return: always returns 0
- *
- */
-int main(void)
-{
-	unsigned char a = '0';
-	int i;
-
-	for (i = 0; i < 10; i++)
-	{
-		putchar(a);
-		a++;
-	}
-	a = '1';
-	for (i = 0; i < 6; i++)
-	{
-		putchar('0' + a);
-		a++;
-	}
-	putchar('\n');
-	return (0);
-}
+[master 3a6eb02] Base 16 in lowcase
+ 1 file changed, 26 insertions(+)
+ create mode 100755 0x01-variables_if_else_while/8-print_base16.c

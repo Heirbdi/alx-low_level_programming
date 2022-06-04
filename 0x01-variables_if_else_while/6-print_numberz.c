@@ -1,16 +1,3 @@
-#include <stdio.h>
-/**
- * main - entry point
- *
- * Return: always returns 0
- *
- */
-int main(void)
-{
-	int a = 0;
-
-	for (; a < 10 ; a++)
-		putchar('0' + a);
-	putchar('\n');
-	return (0);
-}
+[master 784fbc9] 10 to 0
+ 1 file changed, 16 insertions(+)
+ create mode 100755 0x01-variables_if_else_while/6-print_numberz.c

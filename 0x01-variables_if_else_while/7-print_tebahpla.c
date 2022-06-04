@@ -1,16 +1,3 @@
-#include <stdio.h>
-/**
- * main - entry point
- *
- * Return: always returns 0
- *
- */
-int main(void)
-{
-	char a;
-
-	for (a = 'z'; a >= 'a' ; a--)
-		putchar(a);
-	putchar('\n');
-	return (0);
-}
+[master 36779bc] Lowcase alphabet in reverse
+ 1 file changed, 16 insertions(+)
+ create mode 100755 0x01-variables_if_else_while/7-print_tebahpla.c
