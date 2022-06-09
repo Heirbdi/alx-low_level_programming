@@ -9,6 +9,14 @@
  */
 int _putchar(char c)
 {
+char *sh = "_putchar";
 
-	return (write(1, &c, 1));
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
