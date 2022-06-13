@@ -1,3 +1,2 @@
-[master 0b05804] .c in .o
- 1 file changed, 2 insertions(+)
- create mode 100755 0x00-hello_world/1-compiler
+#!/bin/bash
+gcc -c $CFILE
