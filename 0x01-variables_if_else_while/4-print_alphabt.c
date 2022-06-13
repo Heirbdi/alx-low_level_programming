@@ -1,3 +1,17 @@
-[master bf9139f] Alphabet in lowcase
- 1 file changed, 22 insertions(+)
- create mode 100755 0x01-variables_if_else_while/4-print_alphabt.c
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Return: 0
+ */
+int main(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c != 'e' && c != 'q')
+			putchar(c);
+	}
+	putchar('\n');
+	return (0);
+}
