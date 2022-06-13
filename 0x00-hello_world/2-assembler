@@ -1,3 +1,2 @@
-[master 6b45ed9] C in .s
- 1 file changed, 2 insertions(+)
- create mode 100755 0x00-hello_world/2-assembler
+#!/bin/bash
+gcc -S $CFILE
