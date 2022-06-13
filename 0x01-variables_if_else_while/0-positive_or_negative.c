@@ -1,2 +1,31 @@
-[master 193dce0] Positive or Negative Number
- 1 file changed, 3 insertions(+), 1 deletion(-)
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/**
+ * main -use to check for conditions
+ *
+ * Description: return the results when the conditions are met
+ *
+ * Return: return integer 0
+ *
+ */
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is negative\n", n);
+	}
+	return (0);
+}
