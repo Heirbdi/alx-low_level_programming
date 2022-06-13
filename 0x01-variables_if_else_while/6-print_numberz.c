@@ -1,3 +1,16 @@
-[master 784fbc9] 10 to 0
- 1 file changed, 16 insertions(+)
- create mode 100755 0x01-variables_if_else_while/6-print_numberz.c
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Return: 0
+ */
+int main(void)
+{
+	int start = 0;
+
+	for (start = 0; start < 10; start++)
+	{
+		putchar(start + '0');
+	}
+	putchar('\n');
+	return (0);
+}
