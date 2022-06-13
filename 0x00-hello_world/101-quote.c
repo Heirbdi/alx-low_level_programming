@@ -1,3 +1,10 @@
-[master 67fc800] Display content with puts or printf
- 1 file changed, 13 insertions(+)
- create mode 100755 0x00-hello_world/101-quote.c
+#include <unistd.h>
+/**
+ * main - Entry point 
+ * Description: "prints exactly as is"
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
