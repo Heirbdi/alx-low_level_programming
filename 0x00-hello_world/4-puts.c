@@ -1,3 +1,11 @@
-[master 21435ab] Display content with puts
- 1 file changed, 11 insertions(+)
- create mode 100755 0x00-hello_world/4-puts.c
+#include <stdio.h>
+/**
+ * main - prints a string that inputs the functions
+ * Description: Priting "programming is like building a multilingual puzzle"
+ * Return: Always 0.
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
