@@ -1,3 +1,16 @@
-[master 53e92b8] Two integers
- 1 file changed, 16 insertions(+)
- create mode 100755 0x02-functions_nested_loops/10-add.c
+#include "main.h"
+
+/**
+ * add - adds two integers and returns the result
+ * @a: int to be added to b
+ * @b: int to be added to a
+ * Return: sum of a and b
+ */
+int add(int a, int b)
+{
+	int d;
+
+	d = a + b;
+
+	return (d);
+}
