@@ -1,17 +1,2 @@
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: 0
- */
-int main(void)
-{
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		if (c != 'e' && c != 'q')
-			putchar(c);
-	}
-	putchar('\n');
-	return (0);
-}
+[master 1c6601d] Alphabet
+ 1 file changed, 17 insertions(+), 3 deletions(-)

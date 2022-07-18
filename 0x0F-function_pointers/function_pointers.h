@@ -1,9 +1,2 @@
-#ifndef _FUNCTION_POINTERS_
-#define _FUNCTION_POINTERS_
-
-void print_name(char *name, void (*f)(char *));
-void array_iterator(int *array, size_t size, void (*action)(int));
-int int_index(int *array, int size, int (*cmp)(int));
-
-
-#endif
+[master 2e9968b] The prototype of all your functions.
+ 1 file changed, 6 insertions(+)

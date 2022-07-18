@@ -1,33 +1,3 @@
-#include "variadic_functions.h"
-
-/**
- * print_strings - prints strings
- * @separator: separator between strings
- * @n: number of arguments
- */
-void print_strings(const char *separator, const unsigned int n, ...)
-{
-	unsigned int i;
-	char *str;
-
-	va_list list;
-
-	va_start(list, n);
-
-	for (i = 0; i < n; i++)
-	{
-		str = va_arg(list, char *);
-		if (!str)
-			str = "(nil)";
-		if (!separator)
-			printf("%s", str);
-		else if (separator && i == 0)
-			printf("%s", str);
-		else
-			printf("%s%s", separator, str);
-	}
-
-	printf("\n");
-
-	va_end(list);
-}
+[master d3c58c2] A function that prints strings
+ 1 file changed, 33 insertions(+)
+ create mode 100644 0x10-variadic_functions/2-print_strings.c

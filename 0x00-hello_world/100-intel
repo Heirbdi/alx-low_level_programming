@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc -S -masm=intel $CFILE > main.js
+[master 05c6dbc] The generates the assembly code
+ 1 file changed, 2 insertions(+), 3 deletions(-)

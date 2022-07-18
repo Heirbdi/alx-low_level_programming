@@ -1,21 +1,3 @@
-#include <stdio.h>
-/**
- * main - Entry thepoint
- * Description: "points the size of various files"
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	int v;
-	long int w;
-	long long int x;
-	char y;
-	float z;
-
-	printf("Size of a char: %zu byte(s)\n", sizeof(y));
-	printf("Size of an int: %zu byte(s)\n", sizeof(v));
-	printf("Size of a long int: %zu byte(s)\n", sizeof(w));
-	printf("Size of a long long int: %zu byte(s)\n", sizeof(x));
-	printf("Size of a float: %zu byte(s)\n", sizeof(z));
-	return (0);
-}
+[master 867a0e7] Print Data sizes
+ 1 file changed, 21 insertions(+), 3 deletions(-)
+ rewrite 0x00-hello_world/6-size.c (100%)

@@ -1,15 +1,3 @@
-#include <stdio.h>
-/**
- * main - writes its name
- * @argc: argument count
- * @argv: array of pointers to argument strings
- * Return: 0
- */
-
-int main(int argc, char *argv[])
-
-{
-	argc = argc;
-	printf("%s\n", *argv);
-	return (0);
-}
+[master 136392c] A program that prints irs name
+ 1 file changed, 15 insertions(+)
+ create mode 100644 0x0A-argc_argv/0-whatsmyname.c

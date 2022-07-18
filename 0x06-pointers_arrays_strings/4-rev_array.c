@@ -1,21 +1,3 @@
-#include "main.h"
-
-/**
- * reverse_array - reverse array of integers
- * @a: array
- * @n: number of elements of array
- *
- * Return: void
- */
-void reverse_array(int *a, int n)
-{
-	int b;
-	int temp;
-
-	for (b = 0; b < n--; b++)
-	{
-		temp = a[b];
-		a[b] = a[n];
-		a[n] = temp;
-	}
-}
+[master bc43218] A fonctions that reverse a fonction
+ 1 file changed, 21 insertions(+)
+ create mode 100644 0x06-pointers_arrays_strings/4-rev_array.c

@@ -1,16 +1,3 @@
-#include <stdio.h>
-
-/**
- *  * main - prints the number of arguenments passed to it
- * @argc: arguemnet count
- * @argv: array of pointer to arguement strings
- * Return: 0
- **/
-
-int main(int argc, char *argv[])
-
-{
-	argv = argv;
-	printf("%d\n", argc - 1);
-	return (0);
-}
+[master 1ccb66a] A program that prints the number of arguments
+ 1 file changed, 16 insertions(+)
+ create mode 100644 0x0A-argc_argv/1-args.c

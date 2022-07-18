@@ -1,31 +1,3 @@
-#include "main.h"
-
-/**
- * _strpbrk - matches any character specified
- * @s: this is the c string to be scanned.
- * @accept: character in str1 that matches one of the characters in str2
- *Return: string s that matches any character specified in accept
- **/
-
-char *_strpbrk(char *s, char *accept)
-{
-	int r;
-
-	while (*s != '\0') /*Declaring while*/
-	{
-		r = 0;
-		while (accept[r] != '\0') /*Evaluating *accept*/
-		{
-			if (*s == accept[r])
-			{
-				return (s);
-			}
-
-			r++; /*add r+1*/
-		}
-
-		s++; /*add s+1*/
-	}
-	return (0);
-
-}
+[master 2cf7f65] A function that searches a string for any of aset o bytes
+ 1 file changed, 31 insertions(+)
+ create mode 100644 0x07-pointers_arrays_strings/4-strpbrk.c

@@ -1,11 +1,3 @@
-#include "main.h"
-/**
- * _isupper - checks for upper case character
- * @c: the character to check for
- * Description: checks for upper character.
- * Return: 1 if c is upper case. 0 otherwise
- **/
-int _isupper(int c)
-{
-	return (c >= 'A' && c <= 'Z');
-}
+[master 8edf4bd] test
+ 1 file changed, 11 insertions(+)
+ create mode 100644 0x09-static_libraries/0-isupper.c

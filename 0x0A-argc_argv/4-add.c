@@ -1,31 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-/**
- * main - returns an addition of positive arguments
- * @argc: length of arguments
- * @argv: arguments passed
- * Return: 0
- */
-
-int main(int argc, char **argv)
-{
-	int a, b, result = 0;
-
-	for (a = 1; a < argc; a += 1)
-	{
-	for (b = 0; (argv[a])[b] != '\0'; b += 1)
-	{
-	if (((argv[a])[b] - '0') >= 0 && ((argv[a])[b] - '0') <= 9)
-	continue;
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
-	}
-	result += atoi(argv[a]);
-	}
-		printf("%d\n", result);
-		return (0);
-}
+[master 7ec70e2] A program that adds positive numbers
+ 1 file changed, 31 insertions(+)
+ create mode 100644 0x0A-argc_argv/4-add.c

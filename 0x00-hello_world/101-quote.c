@@ -1,11 +1,3 @@
-#include <unistd.h>
-/**
- * main - Entry point
- * Description: "prints exactly as is"
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (1);
-}
+[master c665b13] Print exactly
+ 1 file changed, 11 insertions(+), 22 deletions(-)
+ rewrite 0x00-hello_world/101-quote.c (100%)

@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc $CFILE -o cisfun
+[master f7f7dc2] Compile in cisfun
+ 1 file changed, 2 insertions(+), 3 deletions(-)

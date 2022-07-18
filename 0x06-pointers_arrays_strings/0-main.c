@@ -1,22 +1,3 @@
-#include "main.h"
-#include <stdio.h>
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    char s1[98] = "Hello ";
-    char s2[] = "World!\n";
-    char *ptr;
-
-    printf("%s\n", s1);
-    printf("%s", s2);
-    ptr = _strcat(s1, s2);
-    printf("%s", s1);
-    printf("%s", s2);
-    printf("%s", ptr);
-    return (0);
-}
+[master 29c2740] 0-strcat.c
+ 1 file changed, 22 insertions(+)
+ create mode 100644 0x06-pointers_arrays_strings/0-main.c

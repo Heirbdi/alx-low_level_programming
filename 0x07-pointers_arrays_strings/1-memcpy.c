@@ -1,25 +1,3 @@
-#include "main.h"
-/**
- *_memcpy -   copy number bytes form adress "from" to adress "to"
- *@dest: content is to be copied
- *@src: Source of data to be copied
- *@n: bytes of the memory
- *Return: dest
- */
-
-char *_memcpy(char *dest, char *src, unsigned int n)
-
-{
-unsigned int i;
-
-i = 0;
-while (i < n)  /*Delacring WHILE*/
-{
-*(dest + i) = *(src + i); /*add 1 position dest and src*/
-i++;
-
-} /*END WHILE*/
-
-
-return (dest);
-}
+[master 6d02966] A function copies memory area
+ 1 file changed, 25 insertions(+)
+ create mode 100644 0x07-pointers_arrays_strings/1-memcpy.c

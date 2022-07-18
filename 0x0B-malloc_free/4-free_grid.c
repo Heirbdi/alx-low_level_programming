@@ -1,19 +1,3 @@
-#include "main.h"
-#include <stdlib.h>
-
-/**
- * free_grid - frees a 2d integer grid previously created by alloc_grid
- * @grid: pointer to array of ints
- * @height: number of rows
- * Return: nothing, frees memory
- **/
-
-void free_grid(int **grid, int height)
-
-{
-	int a;
-
-	for (a = 0; a < height; a++)
-		free(grid[a]);
-	free(grid);
-}
+[master 9a65287] A function that frees a 2 dimnsional
+ 1 file changed, 19 insertions(+)
+ create mode 100644 0x0B-malloc_free/4-free_grid.c

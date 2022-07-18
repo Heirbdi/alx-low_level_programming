@@ -1,16 +1,2 @@
-#include "main.h"
-
-/**
- * add - adds two integers and returns the result
- * @a: int to be added to b
- * @b: int to be added to a
- * Return: sum of a and b
- */
-int add(int a, int b)
-{
-	int d;
-
-	d = a + b;
-
-	return (d);
-}
+[master 3d465db] Two integers
+ 1 file changed, 16 insertions(+), 3 deletions(-)

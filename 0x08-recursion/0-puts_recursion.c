@@ -1,21 +1,3 @@
-#include "main.h"
-
-/**
- * _puts_recursion - prints a string, followed by a new line
- * @s: points to string
- * Return: 0
- *
- */
-
-void _puts_recursion(char *s)
-
-{
-	if (*s == '\0')
-	{
-		_putchar('\n');
-		return;
-	}
-
-	_putchar(*s);
-	_puts_recursion(s + 1);
-}
+[master 9fad320] Print a string
+ 1 file changed, 21 insertions(+)
+ create mode 100644 0x08-recursion/0-puts_recursion.c

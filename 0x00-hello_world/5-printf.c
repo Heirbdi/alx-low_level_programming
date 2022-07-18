@@ -1,14 +1,2 @@
-#include <stdio.h>
-/**
- * main - prints a script
- *
- * Description: print a script exactly as is
- *
- * Return: 0
- *
- */
-int main(void)
-{
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
-}
+[master cd74edc] Print a script
+ 1 file changed, 14 insertions(+), 3 deletions(-)

@@ -1,18 +1,3 @@
-#include <stdio.h>
-/**
- * main - print arguments received
- * @argc: length of the arguments
- * @argv: arguments passed
- * Return: 0
- */
-
-int main(int argc, char **argv)
-{
-int j;
-for (j = 0; j < argc; j++)
-{
-printf("%s\n", *argv);
-argv++;
-}
-return (0);
-}
+[master c7e23d0] A program prints all arguments it receives
+ 1 file changed, 18 insertions(+)
+ create mode 100644 0x0A-argc_argv/2-args.c

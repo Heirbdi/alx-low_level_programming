@@ -1,30 +1,3 @@
-#include "3-calc.h"
-#include <stdio.h>
-#include<stdlib.h>
-/**
- * get_op_func - selects accurate function
- * @s: operation
- * Return: pointer to function
- */
-
-int (*get_op_func(char *s))(int, int)
-
-{
-	op_t ops[] = {
-	{"+", op_add},
-	{"-", op_sub},
-	{"*", op_mul},
-	{"/", op_div},
-	{"%", op_mod},
-	{NULL, NULL}
-};
-
-	int i = 0;
-		while (i < 10)
-	{
-		if (s[0] == ops->op[i])
-		break;
-		i++;
-	}
-	return (ops[i / 2].f);
-}
+[master 0950cc2] This file should contain the operation asked by the user
+ 1 file changed, 30 insertions(+)
+ create mode 100644 0x0F-function_pointers/3-get_op_func.c

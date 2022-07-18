@@ -1,18 +1,3 @@
-#include"stdlib.h"
-#include "function_pointers.h"
-#include <stdio.h>
-
-/**
- * print_name - prints a name
- * @name: pointer to char
- * @f: pointer to function that returns nothing
- * Return: Nothing
- */
-
-void print_name(char *name, void (*f)(char *))
-
-
-{
-	if (name != NULL && *name != '\0' && f != NULL)
-	f(name);
-}
+[master 85d1b49] A function that print a name
+ 1 file changed, 18 insertions(+)
+ create mode 100644 0x0F-function_pointers/0-print_name.c

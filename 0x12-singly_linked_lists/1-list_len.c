@@ -1,16 +1,3 @@
-#include "lists.h"
-#include <stddef.h>
-#include <stdlib.h>
-/**
- * list_len - finds the number of nodes in a list
- * @h: singly linked list
- * Return: number of elements in a linked list
- */
-size_t list_len(const list_t *h)
-{
-	int i;
-
-	for (i = 0; h; i++)
-		h = h->next;
-	return (i);
-}
+[master 2429429] A function that return number of element of list_t
+ 1 file changed, 16 insertions(+)
+ create mode 100644 0x12-singly_linked_lists/1-list_len.c

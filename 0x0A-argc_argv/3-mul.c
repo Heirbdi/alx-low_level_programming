@@ -1,19 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
- * main - returns the multiplication of two arguments
- * @argc: length of the arguments
- * @argv: arguments passed
- * Return: 0
- */
-
-int main(int argc, char *argv[])
-{
-	if (argc < 3 || argc > 3)
-	{
-		printf("Error\n");
-			return (1);
-	}
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-			return (0);
-}
+[master 0ab8f66] A program that multiplies two numbers
+ 1 file changed, 19 insertions(+)
+ create mode 100644 0x0A-argc_argv/3-mul.c

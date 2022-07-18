@@ -1,30 +1,3 @@
-#include "main.h"
-
-/**
- * _strncat - concatenate two strings using at most n bytes from src
- * @dest: input value
- * @src: input value
- * @n: input value
- *
- * Return: dest
- */
-char *_strncat(char *dest, char *src, int n)
-{
-	int a;
-	int b;
-
-	a = 0;
-	while (dest[a] != '\0')
-	{
-		a++;
-	}
-	b = 0;
-	while (b < n && src[b] != '\0')
-	{
-		dest[a] = src[b];
-		a++;
-		b++;
-	}
-	dest[a] = '\0';
-	return (dest);
-}
+[master d31ffaa] Concatenates two strings
+ 1 file changed, 30 insertions(+)
+ create mode 100644 0x06-pointers_arrays_strings/1-strncat.c

@@ -1,19 +1,3 @@
-#include "main.h"
-/**
- * _strcpy - check th code
- * @dest: pointer char type
- * @src: pointer char type
- * Return: Always 0.
- */
-char *_strcpy(char *dest, char *src)
-{
-	int i;
-
-	for (i = 0; *src != '\0'; i++)
-	{
-		dest[i] = *src;
-		src++;
-	}
-	dest[i++] = *src;
-	return (dest);
-}
+[master 6be46ae] Copies the string pointed
+ 1 file changed, 19 insertions(+)
+ create mode 100755 0x05-pointers_arrays_strings/9-strcpy.c

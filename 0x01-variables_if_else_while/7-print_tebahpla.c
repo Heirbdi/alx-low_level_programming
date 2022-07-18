@@ -1,17 +1,2 @@
-#include <stdio.h>
-/**
- * main -Entry point
- *
- * Return: 0
- */
-int main(void)
-{
-	char alphabet;
-
-	for (alphabet = 'z'; alphabet >= 'a'; alphabet--)
-	{
-		putchar(alphabet);
-	}
-	putchar('\n');
-	return (0);
-}
+[master af9ec80] Printlowcase
+ 1 file changed, 17 insertions(+), 3 deletions(-)

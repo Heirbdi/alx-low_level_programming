@@ -1,30 +1,3 @@
-#include "main.h"
-
-/**
- * _strstr - first occurrence of the substring needle in the string haystack
- * @haystack: main str to be examined
- * @needle: searched in haystack
- * Return: return 0
- **/
-
-char  *_strstr(char *haystack, char *needle)
-{
-	char *str1, *str2; /*declaring variables*/
-
-	while (*haystack != '\0')
-	{
-		str1 = haystack; /*values*/
-		str2 = needle;
-
-		/*star while*/
-		while (*haystack != '\0' && *str2 != '\0' && *haystack == *str2)
-		{
-			haystack++;
-			str2++;
-		}
-		if (*str2 == '\0')
-			return (str1);
-		haystack = str1 + 1;
-	}
-	return (0);
-}
+[master 19669b6] Afunction that locates a substring
+ 1 file changed, 30 insertions(+)
+ create mode 100644 0x07-pointers_arrays_strings/5-strstr.c

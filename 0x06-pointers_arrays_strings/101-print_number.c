@@ -1,28 +1,3 @@
-#include "main.h"
-
-/**
-* print_number - prints an integer using _putchar
-* @n: integer to be printed
-*/
-void print_number(int n)
-{
-	unsigned int num;
-
-	/* print - infront of negative numbers */
-	if (n < 0)
-	{
-		_putchar('-');
-		num = -n;
-	}
-	else
-	{
-		num = n;
-	}
-
-	/* print the digits infront of the current digit */
-	if (num / 10)
-		print_number(num / 10);
-
-	/* print current digit */
-	_putchar((num % 10) + '0');
-}
+[master 52a5508] A function that prints an integer
+ 1 file changed, 28 insertions(+)
+ create mode 100644 0x06-pointers_arrays_strings/101-print_number.c

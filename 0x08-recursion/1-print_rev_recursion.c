@@ -1,17 +1,3 @@
-#include "main.h"
-
-/**
- * _print_rev_recursion - prints a string in reverse
- * @s: points to string
- * Return: 0
- */
-
-void _print_rev_recursion(char *s)
-
-{
-	if (*s != '\0')
-	{
-		_print_rev_recursion(s + 1);
-		_putchar(*s);
-	}
-}
+[master 71137d0] Print string in reverse
+ 1 file changed, 17 insertions(+)
+ create mode 100644 0x08-recursion/1-print_rev_recursion.c

@@ -1,25 +1,3 @@
-#include <stdio.h>
-
-/**
- * main - computes and prints the sum of all the multiples
- * of 3 or 5 below 1024. Done the Felix Obianozie way.
- * Return: Always 0 (Success)
- */
-
-int main(void)
-{
-	int sum;
-	int i;
-
-	sum = 0;
-
-	for (i = 0; i < 1024; ++i)
-	{
-		if ((i % 3) == 0 || (i % 5) == 0)
-		{
-			sum = sum + i;
-		}
-	}
-	printf("%i\n", sum);
-	return (0);
-}
+[master d7960a0] Computes and print result
+ 1 file changed, 25 insertions(+)
+ create mode 100755 0x02-functions_nested_loops/101-natural.c
