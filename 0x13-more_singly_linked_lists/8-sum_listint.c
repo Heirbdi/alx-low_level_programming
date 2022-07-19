@@ -1,14 +1,3 @@
-#include "lists.h"
-/**
- * sum_listint - sums all elements of a list
- * @head: pointer to the head of the list
- * Return: sum of all elements
- */
-int sum_listint(listint_t *head)
-{
-	int sum;
-
-	for (sum = 0; head; sum += head->n, head = head->next)
-		;
-	return (sum);
-}
+[master c2dd5a0] A function that returns the sum of all data
+ 1 file changed, 14 insertions(+)
+ create mode 100644 0x13-more_singly_linked_lists/8-sum_listint.c

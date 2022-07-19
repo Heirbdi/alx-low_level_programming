@@ -1,32 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "lists.h"
-
-/**
- * main - check the code
- * 
- * Return: Always 0.
- */
-int main(void)
-{
-    listint_t *head;
-    listint_t *new;
-    listint_t hello = {8, NULL};
-    size_t n;
-
-    head = &hello;
-    new = malloc(sizeof(listint_t));
-    if (new == NULL)
-    {
-        printf("Error\n");
-        return (1);
-    }
-    new->n = 9;
-    new->next = head;
-    head = new;
-    n = print_listint(head);
-    printf("-> %lu elements\n", n);
-    free(new);
-    return (0);
-}
+[master 198aba4] 0-print_lisint.c
+ 1 file changed, 32 insertions(+)
+ create mode 100644 0x13-more_singly_linked_lists/main/0-main.c
