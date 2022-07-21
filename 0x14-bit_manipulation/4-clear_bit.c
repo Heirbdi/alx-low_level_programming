@@ -1,15 +1,20 @@
-#include "main.h"
+On branch master
+Your branch is up to date with 'origin/master'.
 
-/**
- * clear_bit - sets the value of a bit to 0 at a given index
- * @n: pointer to number
- * @index: index to change
- * Return: 1 if it worked or -1 if an error occurred
- */
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   0-binary_to_uint.c
+	modified:   1-print_binary.c
+	modified:   2-get_bit.c
+	modified:   3-set_bit.c
+	modified:   4-clear_bit.c
+	modified:   5-flip_bits.c
+	modified:   README.md
 
-int clear_bit(unsigned long int *n, unsigned int index)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../0x13-more_singly_linked_lists/.2-add_nodeint.c.swp
+	ain.h
 
-{
-	*n = *n & ~(1 << index);
-	return ((index > 8 * sizeof(*n)) ? -1 : 1);
-}
+no changes added to commit (use "git add" and/or "git commit -a")
